@@ -1,0 +1,21 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-weight: 555;
+    line-height: 20px;
+}
+
+h4 {
+    font-weight: 555;
+    margin: 20px;
+
+}
