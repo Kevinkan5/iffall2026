@@ -1,0 +1,71 @@
+header {
+
+margin-bottom: 3rem; 
+}
+
+p {
+    line-height: 1.6;
+}
+
+.see-all {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+h1:nth-child(-n+2) {
+    font-size: 2.5rem;
+    font-weight: 300;
+    
+}
+
+h2{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+img {
+    width: 100%; 
+}
+
+.cast li {
+    width:25%;
+}
+
+.shows #game-of-thrones, .shows #unbreakable-kimmy-schmidt {
+     border-top: 1px solid black;
+}
+
+.selected a:link, .selected a:visited {
+    color: black; 
+    font-weight: bold;
+}
+
+ .selected a:active {
+    color: red
+ }
+
+ .cast li div{
+    font-size: 0.8rem;
+ }
+
+ .cast li div:nth-child(even){
+    font-weight: bold;
+ }
+
+  .cast li div:nth-child(odd){
+    font-style: italic;
+ }
+
+#game-of-thrones .seasons li:last-child::after {
+    content: "*";
+}
+
+
+#game-of-thrones .seasons ul::after {
+display: block;
+    content: "* Final Season" ;
+    color: #999; 
+    font-size: 0.7rem;
+}
+   
